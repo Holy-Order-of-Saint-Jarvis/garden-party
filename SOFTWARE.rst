@@ -2,9 +2,6 @@
 Software Development in St. Jarvis's Garden
 ===========================================
 
-.. |holy-order| replace:: Holy Order of Saint Jarvis
-.. _holy-order: https://github.com/Holy-Order-of-Saint-Jarvis
-
    For an earlier (and currently more complete) document in the same vein, please see `Navarro Code <https://github.com/Holy-Order-of-Saint-Jarvis/lovecraft/blob/master/docs/overview.md>`_ in the deprecated ``lovecraft`` repo.
 
 Modules
@@ -23,11 +20,6 @@ They may need to be updated in the field and are expected to be runnable on a wi
 |garden-party|_
    Top-level code.
    This includes the core event loop, plugin manager, and CLI.
-
-.. |rlyeh| replace:: ``rlyeh``
-.. _rlyeh: https://github.com/Holy-Order-of-Saint-Jarvis/rlyeh
-.. |garden-party| replace:: ``garden-party``
-.. _garden-party: https://github.com/Holy-Order-of-Saint-Jarvis/garden-party
 
 Plugins
 -------
@@ -48,9 +40,6 @@ Critical dependencies
 |supervisord|_
    Application-level process manager.
    Used to control and monitor multiple processes.
-
-.. |fadecandy| replace:: `fadecandy`
-.. _fadecandy: https://github.com/scanlime/fadecandy
    
 Core development utilities
 ++++++++++++++++++++++++++
@@ -61,13 +50,6 @@ but it will likely be unpleasant.
 |python-tecthulhu|_
    Tecthulu device simulator used for Camp Navarro 2017.
    Used for automated testing and validation.
-
-.. |python-tecthulhu| replace:: ``python-tecthulhu``
-.. |openpixelcontrol| replace:: ``openpixelcontrol``
-.. |supervisord| replace:: ``supervisord``
-.. _python-tecthulhu: https://github.com/terencehonles/python-tecthulhu
-.. _openpixelcontrol: http://openpixelcontrol.org/
-.. _supervisord: http://supervisord.org/
 
 Transitive dependencies
 -----------------------
@@ -106,5 +88,27 @@ environment is recreated.
          - urllib3 [required: <1.23,>=1.21.1, installed: 1.22]
 **TBD**
 
-**Note**: Once properly annotated, ``garden-party`` will include (and ideally pin) all other critical dependencies besides ``supervisor``.
+**Note**: Once properly annotated, ``garden-party`` will include (and hopefully pin) all other critical dependencies besides ``supervisor``.
 At that point, this section can be streamlined with the ``rlyeh`` subsection entirely removed.
+
+.. ############################################
+.. ### REPLACEMENTS (ideally alphabetized) ####
+.. ############################################
+.. |fadecandy| replace:: `fadecandy`
+.. |garden-party| replace:: ``garden-party``
+.. |holy-order| replace:: Holy Order of Saint Jarvis
+.. |openpixelcontrol| replace:: ``openpixelcontrol``
+.. |python-tecthulhu| replace:: ``python-tecthulhu``
+.. |rlyeh| replace:: ``rlyeh``
+.. |supervisord| replace:: ``supervisord``
+
+.. ############################################
+.. ####### LINKS (ideally alphabetized) #######
+.. ############################################
+.. _fadecandy: https://github.com/scanlime/fadecandy
+.. _garden-party: https://github.com/Holy-Order-of-Saint-Jarvis/garden-party
+.. _holy-order: https://github.com/Holy-Order-of-Saint-Jarvis
+.. _openpixelcontrol: http://openpixelcontrol.org/
+.. _python-tecthulhu: https://github.com/terencehonles/python-tecthulhu
+.. _rlyeh: https://github.com/Holy-Order-of-Saint-Jarvis/rlyeh
+.. _supervisord: http://supervisord.org/
