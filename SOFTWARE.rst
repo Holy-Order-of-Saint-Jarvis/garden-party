@@ -32,10 +32,15 @@ Third-party
 
 Critical dependencies
 +++++++++++++++++++++
+**If these modules don't work on-site, critical portions of the portal will be non-functional.**
 
 |openpixelcontrol|_
-   RGB LED controller drivers.
+   High-level RGB LED controller drivers.
    Used to control the |fadecandy|_ hardware for core resonator lighting.
+   Also used for automated integration testing.
+
+|fadecandy|_
+   Low-level lighting hardware driver.
 
 |supervisord|_
    Application-level process manager.
@@ -94,7 +99,7 @@ At that point, this section can be streamlined with the ``rlyeh`` subsection ent
 .. ############################################
 .. ### REPLACEMENTS (ideally alphabetized) ####
 .. ############################################
-.. |fadecandy| replace:: `fadecandy`
+.. |fadecandy| replace:: ``fadecandy``
 .. |garden-party| replace:: ``garden-party``
 .. |holy-order| replace:: Holy Order of Saint Jarvis
 .. |openpixelcontrol| replace:: ``openpixelcontrol``
