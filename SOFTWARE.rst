@@ -100,7 +100,7 @@ At that point, this section can be streamlined with the ``rlyeh`` subsection ent
 .. |openpixelcontrol| replace:: ``openpixelcontrol``
 .. |python-tecthulhu| replace:: ``python-tecthulhu``
 .. |rlyeh| replace:: ``rlyeh``
-.. |supervisord| replace:: ``supervisord``
+.. |supervisord| replace:: ``supervisor``
 
 .. ############################################
 .. ####### LINKS (ideally alphabetized) #######
