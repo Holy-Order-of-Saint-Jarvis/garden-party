@@ -5,6 +5,8 @@ Software Development in St. Jarvis's Garden
 .. |holy-order| replace:: Holy Order of Saint Jarvis
 .. _holy-order: https://github.com/Holy-Order-of-Saint-Jarvis
 
+   For an earlier (and currently more complete) document in the same vein, please see `Navarro Code <https://github.com/Holy-Order-of-Saint-Jarvis/lovecraft/blob/master/docs/overview.md>`_ in the deprecated ``lovecraft`` repo.
+
 Modules
 =======
 Sometimes the question is less "what needs to be fixed" than "where can I even find this code?"
