@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+tox = "*"
+tecthulhu = {git = "https://github.com/terencehonles/python-tecthulhu.git", editable = true}
+
+[requires]
+python_version = "3.6"
