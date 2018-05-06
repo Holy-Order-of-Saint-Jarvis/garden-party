@@ -91,6 +91,9 @@ environment is recreated.
          - chardet [required: <3.1.0,>=3.0.2, installed: 3.0.4]
          - idna [required: >=2.5,<2.7, installed: 2.6]
          - urllib3 [required: <1.23,>=1.21.1, installed: 1.22]
+    supervisor==4.0.0.dev0
+      - meld3 [required: >=1.0.0, installed: 1.0.2]
+
 **TBD**
 
 **Note**: Once properly annotated, ``garden-party`` will include (and hopefully pin) all other critical dependencies besides ``supervisor``.
